@@ -73,8 +73,8 @@ def get_model(data):
 
     # Replace these with your actual file IDs
     model_id = "1XxcDDecSf_iKFSmyzph8y82AAb_B-90o"
-    scaler_id = "YOUR_SCALER_ID_HERE"
-    columns_id = "YOUR_COLUMNS_ID_HERE"
+    scaler_id = "1tT37kr1UDCpcsK1tFT9o-ppRQRhsp1Hq"
+    columns_id = "1B58A4LtTrInBQcGLpC1YuFFFiXv97CVd"
 
     if not os.path.exists(model_path):
         download_from_drive(model_id, model_path)
